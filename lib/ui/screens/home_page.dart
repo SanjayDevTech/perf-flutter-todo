@@ -20,26 +20,12 @@ class HomePage extends StatelessWidget {
           stream: database.todoDao.getAll(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
-              return const Center(child: CircularProgressIndicator());
-            } else if (snapshot.hasError) {
-              return const Center(
-                child: Text(
-                  'Something went wrong',
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-              );
+              return const Placeholder();
             } else {
               if (snapshot.data?.isEmpty ?? true) {
                 return const Center(
                   child: Text(
                     'No records available',
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.w500,
-                    ),
                   ),
                 );
               } else {
