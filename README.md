@@ -18,4 +18,4 @@ This is one of them.
 - [dynamic_color](https://pub.dev/packages/dynamic_color)
 - [go_router](https://pub.dev/packages/go_router)
 
-![Demo](assets/flutter-demo.mp4)
+[![Demo](/assets/flutter-demo.mp4?raw=true)](/assets/flutter-demo.mp4?raw=true)
