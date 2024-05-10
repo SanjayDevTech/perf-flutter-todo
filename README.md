@@ -18,4 +18,5 @@ This is one of them.
 - [dynamic_color](https://pub.dev/packages/dynamic_color)
 - [go_router](https://pub.dev/packages/go_router)
 
-[![Demo](/assets/flutter-demo.mp4?raw=true)](/assets/flutter-demo.mp4?raw=true)
+
+https://github.com/SanjayDevTech/flutter-todo-test/assets/49263351/1412d749-06bd-4757-bacc-1de02d618605
