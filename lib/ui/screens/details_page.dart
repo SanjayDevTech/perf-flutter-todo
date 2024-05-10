@@ -60,7 +60,7 @@ class _DetailPageContentState extends State<_DetailPageContent> {
     final AppDatabase database = AppDatabaseProvider.of(context).appDatabase;
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Detail"),
+        title: Text(widget.isEditMode ? "Update Todo" : "Add Todo"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
