@@ -1,8 +1,8 @@
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:todo_test/data/app_database.dart';
-import 'package:todo_test/routes.dart';
+import 'data/app_database.dart';
+import 'routes.dart';
 
 class AppDatabaseProvider extends InheritedWidget {
   const AppDatabaseProvider({
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
     return DynamicColorBuilder(
       builder: (lightDynamic, darkDynamic) => MaterialApp.router(
         debugShowCheckedModeBanner: false,
-        title: 'Todo Test App',
+        title: 'Flutter Todo',
         darkTheme: ThemeData(
           colorScheme: darkDynamic,
           useMaterial3: true,

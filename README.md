@@ -1,22 +1,16 @@
-# Todo Flutter App
+# todo
 
-I have created the same Todo app in different frameworks.
-This is one of them.
+A new Flutter project.
 
-## All frameworks github links:
-- [Android Compose](https://github.com/SanjayDevTech/perf-android-compose-todo)
-- [Flutter](https://github.com/SanjayDevTech/perf-flutter-todo)
-- [React Native](https://github.com/SanjayDevTech/perf-reactnative-todo)
+## Getting Started
 
-## Features
-- Material You theming
-- Dynamic theme for Android 12+
-- Sqlite local storage
+This project is a starting point for a Flutter application.
 
-## Libraries used:
-- [floor](https://pub.dev/packages/floor)
-- [dynamic_color](https://pub.dev/packages/dynamic_color)
-- [go_router](https://pub.dev/packages/go_router)
+A few resources to get you started if this is your first Flutter project:
 
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-https://github.com/SanjayDevTech/perf-flutter-todo/assets/49263351/1412d749-06bd-4757-bacc-1de02d618605
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

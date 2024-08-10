@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:floor/floor.dart';
 import 'package:sqflite/sqflite.dart' as sqflite;
-import 'package:todo_test/data/todo_dao.dart';
-import 'package:todo_test/data/todo_entity.dart';
+import 'todo_dao.dart';
+import 'todo_entity.dart';
 
 part "app_database.g.dart";
 

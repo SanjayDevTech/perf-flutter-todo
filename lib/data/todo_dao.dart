@@ -1,5 +1,5 @@
 import 'package:floor/floor.dart';
-import 'package:todo_test/data/todo_entity.dart';
+import 'todo_entity.dart';
 
 @dao
 abstract class TodoDao {

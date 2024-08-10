@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:todo_test/data/todo_entity.dart';
+import '../../data/todo_entity.dart';
 
 class TodoItem extends StatelessWidget {
   const TodoItem(

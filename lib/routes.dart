@@ -1,6 +1,6 @@
 import 'package:go_router/go_router.dart';
-import 'package:todo_test/ui/screens/details_page.dart';
-import 'package:todo_test/ui/screens/home_page.dart';
+import 'ui/screens/details_page.dart';
+import 'ui/screens/home_page.dart';
 
 final routerConfig = GoRouter(
   initialLocation: '/',

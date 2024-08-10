@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:todo_test/data/app_database.dart';
-import 'package:todo_test/ui/components/todo_item.dart';
+import '../../data/app_database.dart';
+import '../../ui/components/todo_item.dart';
 
 import '../../main.dart';
 
@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
     final AppDatabase database = AppDatabaseProvider.of(context).appDatabase;
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Todo Test App"),
+        title: const Text("Flutter Todo"),
       ),
       body: SafeArea(
         child: StreamBuilder(

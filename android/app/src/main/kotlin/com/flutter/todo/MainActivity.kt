@@ -1,4 +1,4 @@
-package com.flutter.todo_test.todo_test
+package com.flutter.todo
 
 import io.flutter.embedding.android.FlutterActivity
 
